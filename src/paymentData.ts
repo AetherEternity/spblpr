@@ -1,30 +1,24 @@
 export const paymentData = {
-	sber: {
-		details: '2202 2062 8535 5959',
-		title: 'Сбербанк',
+	vtb: {
+		details: '2200 2460 9078 2403',
+		title: 'ВТБ',
 		isRecurrent: false,
 		isCrypto: false
 	},
-	tinkoff: {
-		details: '5536 9138 8427 4453',
-		title: 'Тинькофф',
-		isRecurrent: false,
-		isCrypto: false
-	},
-	alfabank: {
-		details: '5559 4937 1338 7935',
-		title: 'Альфа-Банк',
+	raiffeisen: {
+		details: '2200 3001 0593 3442',
+		title: 'Райффайзен банк',
 		isRecurrent: false,
 		isCrypto: false
 	},
 	usdc: {
-		details: 'TRkd7CLStZgtAcKiQywDFkX34m6y7jDMag',
+		details: 'TYD7UdQscAVJLk3DzCUj7Yi4oAPHDLaXko',
 		title: 'USDC (TRC20)',
 		isRecurrent: false,
 		isCrypto: true
 	},
-	usdt: {
-		details: 'TRkd7CLStZgtAcKiQywDFkX34m6y7jDMag',
+	usdtrc: {
+		details: 'TYD7UdQscAVJLk3DzCUj7Yi4oAPHDLaXko',
 		title: 'USDT (TRC20)',
 		isRecurrent: false,
 		isCrypto: true
@@ -35,33 +29,21 @@ export const paymentData = {
 		isRecurrent: false,
 		isCrypto: true
 	},
-	lightning: {
-		details: 'LNURL1DP68GURN8GHJ7EM9W3SKCCNE9E3K7MF0D3H82UNVWQHHXURZD3C8Y5YLTTW',
-		title: 'Bitcoin (Lightning Network)',
+	usdton: {
+		details: 'UQArNWdIKxP0ayqUjbiSmYUQjQvusugjhQPzksAYvH6tcWQN',
+		title: 'USDT (TON)',
 		isRecurrent: false,
 		isCrypto: true
 	},
 	eth: {
-		details: '0x78305e1A7E0B62E3bE16351f4F4E6dD726F2a90f',
+		details: '0x7dC6d3C3288649B370e9A9491b8Ff3E2Db69865D',
 		title: 'Ethereum',
 		isRecurrent: false,
 		isCrypto: true
 	},
-	ltc: {
-		details: 't1P1K26BaEnDMX5RbrPURE4Ek4hyaPgRe35',
-		title: 'Litecoin',
-		isRecurrent: false,
-		isCrypto: true
-	},
-	zec: {
-		details: 't1P1K26BaEnDMX5RbrPURE4Ek4hyaPgRe35',
-		title: 'Zcash',
-		isRecurrent: false,
-		isCrypto: true
-	},
-	dash: {
-		details: 'XdFA8Xy7DRJ5Cd5tHrUzjMrnuPD5EqF7hs',
-		title: 'Dash',
+	dai: {
+		details: '0x7dC6d3C3288649B370e9A9491b8Ff3E2Db69865D',
+		title: 'DAI (ERC20)',
 		isRecurrent: false,
 		isCrypto: true
 	},
