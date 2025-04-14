@@ -11,7 +11,7 @@ export const paymentData = {
 		isRecurrent: false,
 		isCrypto: false
 	},
-	usdc: {
+	usdctrc: {
 		details: 'TYD7UdQscAVJLk3DzCUj7Yi4oAPHDLaXko',
 		title: 'USDC (TRC20)',
 		isRecurrent: false,
@@ -23,15 +23,15 @@ export const paymentData = {
 		isRecurrent: false,
 		isCrypto: true
 	},
-	btc: {
-		details: 'bc1q00fygpsvgxkxw3f04twwrjmlgh2amc6pm6mpjj',
-		title: 'Bitcoin',
-		isRecurrent: false,
-		isCrypto: true
-	},
 	usdton: {
 		details: 'UQArNWdIKxP0ayqUjbiSmYUQjQvusugjhQPzksAYvH6tcWQN',
 		title: 'USDT (TON)',
+		isRecurrent: false,
+		isCrypto: true
+	},
+	btc: {
+		details: 'bc1q00fygpsvgxkxw3f04twwrjmlgh2amc6pm6mpjj',
+		title: 'Bitcoin',
 		isRecurrent: false,
 		isCrypto: true
 	},
